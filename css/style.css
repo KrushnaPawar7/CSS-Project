@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+
+* {
+    padding: 0;
+    margin: 0;
+}
+header{
+   
+    background-color: var(--main-bg-color);
+    
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 85px;
+    padding: 0 12px;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 28vw;
+    height: 26px;
+    border-radius: 2px;
+    margin: 0 20px 0 80px;
+    padding: 0 12px;
+}
+.slider{
+    margin: 8px auto;
+    width: 864px;
+    overflow: hidden;
+}
+.slider img{
+    height: 381px;
+    width: 960px;
+
+}
+.container{
+    min-height: calc(100vh - 50px - 8vh);
+}
+.cart{
+    max-width: 87vw;
+    margin: 35px auto;
+    margin: auto;
+}
+.cart h2{
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0;
+}
+.carts{
+    display: flex;
+   overflow: scroll;
+}
+.cart-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 17px;
+}
+footer {
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: "Protest Guerrilla", sans-serif;
+}
